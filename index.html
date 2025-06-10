@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+        </style>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+        </style>
+    <title>LUX</title>
+</head>
+<body>
+    <div class="opening-grid"> 
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+       <div> </div>
+        <img src="./images/Stickers/STICKERS_0011_Layer-12.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0003_Layer-4.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0005_Layer-6.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
+        <img src="./images/Stickers/STICKERS_0016_Layer-17.png" >
+        <img src="./images/Stickers/STICKERS_0011_Layer-12.png" >
+    </div>
+    <div class="dove">
+        <img src="images/dove.gif" alt="LUX" class="doveimage"> 
+        <img src="images/dove.gif" alt="LUX" class="doveimage-right">
+    </div>
+        
+    <div class="header">
+        <h1>Leah Mascher</h1>
+    </div>
+
+<div class="container">
+    <div class="border">
+        </div>
+    <div class="border" > 
+         </div> 
+    <div class="border">
+         </div>            
+ </div>
+
+ <div class="overlay">
+<img src="images/LEAH TORING-SMALLER 2.png" alt="LUX" class="image">
+</div>
+    
+            <div class="scrolling-text"> FOREVER LOVE FOREVER LOVE FOREVER LOVE FOREVER LOVE </div>
+            
+        <div class="gradient">
+            <h2>Welcome to <span class="lux">LUX</span></h2>
+            </div>
+            
+            <Section class="page-one"> 
+            <details> 
+            <summary>About</summary>
+            <p>
+                <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid praesentium? Voluptatem dolor ex aliquam in ducimus, fugiat, alias atque facilis minima amet veritatis aut libero consequuntur maxime nulla incidunt.</q>
+            </p>
+           </details>
+
+           <details> 
+            <summary>Work</summary>
+            <p>
+                <q> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid praesentium? Voluptatem dolor ex aliquam in ducimus, fugiat, alias atque facilis minima amet veritatis aut libero consequuntur maxime nulla incidunt.</q>
+            </p>
+           </details>
+
+           <details> 
+            <summary> Contact</summary>
+            <p>
+                <q> <a class="insta">@leahluxmascher</a></q>
+            </p>
+           </details>
+        
+       </Section>
+         
+        
+         <div class="leah"> 
+            <img src="./images/Leah_body_small.png"> 
+            </div> 
+         </div>
+
+        <div class="work-page">
+           
+        </div>
+        
+        <div>
+     
+       <section class="forever-love">
+        <div class="forever-love parent">   
+            <h2>forever love</h2> 
+            <div class="image-container" id="foreverlove">
+        
+            </div>
+        </div>  
+     </section>
+
+    <section class="hickey-projects">
+        <div class="hickey-project parent">
+         <h2>Hickey projects</h2>
+         <div style="background-color: rgb(0, 231, 42);"></div>
+         <div class="hickey-projects"> 
+                <img src="images/hickey-instructions.png" alt="Hickey Projects">
+         </div>
+         <div> <img class="leah-necklace" src="./images/Leah A1 necklace_small.png"></div>
+        </div>
+    </section>
+
+    
+          
+   <script>
+window.addEventListener('scroll', () => {
+  const overlay = document.querySelector('.overlay');
+  const gradient = document.querySelector('.gradient');
+
+  const topOffset = 290; // match the CSS `top` value
+  const gradientBottom = gradient.offsetTop + gradient.offsetHeight;
+  const overlayHeight = overlay.offsetHeight;
+  const scrollY = window.scrollY;
+
+  if (scrollY + topOffset + overlayHeight >= gradientBottom) {
+    overlay.style.position = 'absolute';
+    overlay.style.top = (gradientBottom - overlayHeight) + 'px';
+  } else {
+    overlay.style.position = 'fixed';
+    overlay.style.top = `${topOffset}px`;
+  }
+});
+</script>
+
+
+</body>
+</html>
