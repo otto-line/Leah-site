@@ -206,7 +206,7 @@ body {
 
 
 .gradient {
-      */
+    
     display: block;
     width: 100%;
     position: relative;
@@ -304,7 +304,7 @@ li {
     background-color: red;
     font-family: "Helvetica", cursive;
     font-size: 55px;
-    animation: scroll 30s linear infinite;
+    animation: scroll 20s linear infinite;
     padding: 0%;
     margin: 0%;
     
@@ -419,6 +419,8 @@ padding: 0;
 .page-one {
     width: 50vw;
     height: 100vw;
+    padding: 20px;
+    
 }
 
 details {
@@ -458,10 +460,9 @@ details summary {
   list-style: none; /* Remove default marker */
   cursor: pointer;
   position: relative;
-  padding-left: 50px;
   font-size: 1.5em;
-  padding-top: 50px;
   text-decoration: underline ;
+  padding-left: 40px;
 }
 
 details summary::before {
@@ -490,8 +491,21 @@ details:first-of-type summary::before {
   padding-left: 5px;
 }
 
+details:last-of-type summary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  width: 1em;
+  height: 1em;
+  background-image: url('./images/Stickers/STICKERS_0010_Layer-11.png'); /* Replace with actual image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 5px;
+}
+
 q::before {
-content:none; !important
+content:none;
 }
 
 /* Keyframes */
