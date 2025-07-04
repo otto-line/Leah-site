@@ -13,7 +13,8 @@
     <title>LUX</title>
 </head>
 <body>
-    <div class="opening-grid"> 
+    <div class="curtain-container"> <img id='curtain-gif' src="./images/CURTAIN_OPENING.gif"></div>
+    <!-- <div class="opening-grid"> 
         <div> </div>
         <div> </div>
         <div> </div>
@@ -36,10 +37,10 @@
         <img src="./images/Stickers/STICKERS_0009_Layer-10.png" >
         <img src="./images/Stickers/STICKERS_0016_Layer-17.png" >
         <img src="./images/Stickers/STICKERS_0011_Layer-12.png" >
-    </div>
+    </div> -->
     <div class="dove">
-        <img src="images/dove.gif" alt="LUX" class="doveimage"> 
-        <img src="images/dove.gif" alt="LUX" class="doveimage-right">
+        <div> <img src="images/dove.gif" alt="LUX" class="doveimage"> </div>
+        <div><img src="images/dove.gif" alt="LUX" class="doveimage-right"> </div>
     </div>
         
     <div class="header">
@@ -102,8 +103,20 @@
      
        <section class="forever-love">
         <div class="forever-love parent">   
-            <h2>forever love</h2> 
+           <div> <h2>forever love</h2> </div> 
             <div class="image-container" id="foreverlove">
+                <div class="blank"></div>
+                <div class="img2"></div>
+                <div class="blank"></div>
+                <div class="img4"></div>
+                <div class="img5"></div>
+                <div class="img6"></div>
+                <div class="blank"></div>
+                <div class="img8"></div>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="img11"></div>
+                
         
             </div>
         </div>  
@@ -121,7 +134,8 @@
     </section>
 
     
-          
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script> 
+    <script src="./animations.js"></script>    
    <script>
 window.addEventListener('scroll', () => {
   const overlay = document.querySelector('.overlay');
