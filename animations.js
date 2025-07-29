@@ -19,5 +19,13 @@
       delay: 3,
       ease: "power2.out"
     });
+
+    gsap.to(".scrolling-track", {
+  xPercent: -50,
+  ease: "linear",
+  duration: 10,
+  repeat: -1
+});
+
   });
 
